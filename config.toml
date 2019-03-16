@@ -1,0 +1,37 @@
+baseURL = "https://adriencanterot.dev/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Adrien Cantérot"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Adrien Cantérot"
+  email = "adriencanterot@outlook.com"
+  description = "Accueil"
+  bio = "Développeur, Interne en Médecine."
+  avatar = "img/profil.jpg"
+  favicon = "img/favicon.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    github = "https://github.com/adriencanterot"
+    twitter = "https://twitter.com/adriencanterot"
+    linkedin = "https://www.linkedin.com/in/adrien-canterot-084a42a2/"
