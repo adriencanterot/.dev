@@ -2,7 +2,7 @@ baseURL = "https://adriencanterot.dev"
 languageCode = "en-us"
 defaultContentLanguage = "fr"
 title = "Adrien Cantérot"
-theme = "hermit"
+theme = "hermit-fork"
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
@@ -35,7 +35,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # description = ""
   # images = [""]
   themeColor = "#494f5c"
-
+  image = "img/profil.jpg"
   homeSubtitle = "interne en médecine, développeur"
   footerCopyright = ''
   # bgImg = ""  # Homepage background-image URL
